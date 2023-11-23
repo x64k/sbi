@@ -14,6 +14,8 @@ compile_error!("SBI is only available on RISC-V platforms");
 
 /// Required base SBI functionality
 pub mod base;
+/// Debug console extension
+pub mod debug_console;
 /// Hart State Management extension
 pub mod hart_state_management;
 /// IPI extension
